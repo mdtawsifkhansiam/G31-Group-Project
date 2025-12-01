@@ -1,0 +1,13 @@
+<resources>
+    <!-- existing strings ... -->
+
+    <string name="hint_restaurant_name">Restaurant Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_tags">Tags (comma separated)</string>
+    <string name="hint_description">Description</string>
+
+    <string name="btn_capture_location">Capture Current Location</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_back_home">Back to Home</string>
+</resources>

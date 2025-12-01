@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etName"
+            android:hint="@string/hint_restaurant_name"
+            android:autofillHints="name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:hint="@string/hint_address"
+            android:autofillHints="postalAddress"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:hint="@string/hint_phone"
+            android:inputType="phone"
+            android:autofillHints="phoneNumber"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etTags"
+            android:hint="@string/hint_tags"
+            android:autofillHints="noAutofill"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RatingBar
+            android:id="@+id/rbRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:hint="@string/hint_description"
+            android:inputType="textMultiLine"
+            android:autofillHints="noAutofill"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnGetLocation"
+            android:text="@string/btn_capture_location"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:text="@string/btn_save"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:text="@string/btn_back_home"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" />
+
+    </LinearLayout>
+</ScrollView>
